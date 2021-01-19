@@ -8,7 +8,7 @@
     "tscw": "tsc --watch",
     "wp": "webpack",
     "wpw": "webpack --watch",
-    "server": "http-server build"
+    "serve": "http-server build"
   },
   "repository": {
     "type": "git",

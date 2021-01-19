@@ -14,7 +14,7 @@ module.exports = {
     // this specifies all files with a '.ts' or '.tsx' extension will be handled by the ts-loader
     rules: [{ test: /\.tsx?$/, loader: 'ts-loader' }],
   },
-  plugins: [new CopyWebpackPlugin([{ from: `./html` }])],
+  plugins: [new CopyWebpackPlugin({ patterns: [{ from: `./html` }] })],
 };
 
 /* 

@@ -1,0 +1,13 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "rootDir": "ts",
+    "outDir": "dist",
+    "target": "ES2019",
+    "lib": ["ES2019", "DOM"],
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true
+  }
+}

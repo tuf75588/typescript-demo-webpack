@@ -1,0 +1,34 @@
+{
+  "name": "typescript-webpack-demo",
+  "version": "1.0.0",
+  "description": "## The goal of this repository is to outline the most basic starting boilerplate one might need to begin writing web applications utilizing TypeScript and Webpack together",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tscw": "tsc --watch",
+    "wp": "webpack",
+    "wpw": "webpack --watch",
+    "server": "http-server build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuf75588/typescript-demo-webpack.git"
+  },
+  "keywords": [],
+  "author": "Andrew Davis <develop.it4@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuf75588/typescript-demo-webpack/issues"
+  },
+  "homepage": "https://github.com/tuf75588/typescript-demo-webpack#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "copy-webpack-plugin": "^7.0.0",
+    "http-server": "^0.12.3",
+    "lodash": "^4.17.20",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
